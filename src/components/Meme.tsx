@@ -16,7 +16,7 @@ const Meme = () => {
 
   // Fetch allMemes data
   useEffect(() => {
-    const url: string = process.env.REACT_APP_API_URL ?? "";
+    const url = "https://api.imgflip.com/get_memes";
 
     async function fetchMemesData() {
       const memesData = await getMemesData(url);
