@@ -17,7 +17,7 @@ const Meme = () => {
   // Fetch allMemes data
   useEffect(() => {
     const url: string = process.env.REACT_APP_API_URL as string;
-    console.log(url);
+
     async function fetchMemesData() {
       const memesData = await getMemesData(url);
       setAllMemes(memesData.data.memes);
