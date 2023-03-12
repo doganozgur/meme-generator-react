@@ -14,13 +14,7 @@ const Header = () => {
         background: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
       `}
     >
-      <img
-        css={css`
-          width: 50px;
-        `}
-        src={TrollFace}
-        alt=""
-      />
+      <img css={{ width: "50px" }} src={TrollFace} alt="Troll face" />
       <h2
         css={css`
           color: white;
